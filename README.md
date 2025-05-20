@@ -13,6 +13,12 @@ Core functions for adaptive Gaussian process modelling, including evaluation of 
 ### main_LJ.py:
 Main file to carry out a single iteration of Bayes risk minimization for Lennard Jones parameters, including data described in the paper
 
+
+### Requirements: 
+The sequential design code has been developed and tested with Python 3.12. Besides numpy, scipy and a couple of standard packages, it requires: 
+UQpy (https://github.com/SURGroup/UQpy)
+chaospy (https://chaospy.readthedocs.io/en/master/)
+
 ## Description of molecular simulation files:
 
 ### towhee_ff_R1130E: 
@@ -22,12 +28,3 @@ Force Field file for the modelling of the component R-1130E in the Monte Carlo m
 Force Field file for the modelling of the component R-1130E in the general purpose molecular dynamics simulation package DL_POLY (classic): https://gitlab.com/DL_POLY_Classic
 
 
-## Requirements 
-
-The sequential design code has been developed and tested with Python 3.12. Besides numpy, scipy and a couple of standard packages, it requires 
-
-UQpy (https://github.com/SURGroup/UQpy)
-pip install UQpy
-
-chaospy (https://chaospy.readthedocs.io/en/master/)
-pip install chaospy
